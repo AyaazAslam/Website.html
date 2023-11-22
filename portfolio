@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>portfolio</title>
+</head>
+<style>
+    body{
+        margin: 0%;
+        padding: 0%;
+        height: 100vh;
+        width: 100%;
+      
+        
+       
+    }
+    .main{
+        height: 70vh;
+        width: 100%;
+        background-color: rgb(134, 61, 236);
+       
+    }
+    .main1{
+        height: 30vh;
+        width: 100%;
+        background-color: rgb(208, 241, 247);
+        margin-top: -50px;
+    
+    }
+    .photo{
+        height: 100vh;
+        width: 100%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0%;
+
+    }
+    .pic{
+        height: 80vh;
+        width: 75%;
+        background-color: rgb(113, 162, 162);
+        position: absolute;
+        top: 0%;
+        margin-top: 40px;
+        border-radius: 20px;
+        box-shadow: 1px 5px 50px black;
+    }
+    .profile{
+        height: auto;
+        width: 100%;
+        
+    }
+    .profile img{
+        height: 350px;
+        width: 380px;
+       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+      background-color: rgb(122, 118, 118);
+      box-shadow: 1px 2px 16px black;
+      animation: name duration timing-function delay iteration-count direction fill-mode;
+        animation: ab 1s linear infinite alternate;
+        
+    }
+    @keyframes ab {
+        0%{
+        }
+        30%{
+            background-color: pink;
+        }
+        50%{
+            background-color: red;
+        }
+        70%{
+            background-color: blue;
+        }
+        100%{
+            transform: translateY(20px);
+        }
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .nav ul li{
+        list-style: none;
+        display: inline;
+        padding: 10px;
+       
+        
+    }
+  
+    .nav ul li a{
+        text-decoration: none;
+
+    }
+    .nav ul li a:hover{
+        color: white;
+    }
+    .bton{
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    .nav nav h1{
+        color: white;
+    }
+    .profile{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .detail{
+        width: 50%;
+    }
+    .detail a button{
+        outline: none;
+        border: none;
+        background-color: blue;
+        padding: 10px;
+        border: 2px solid blue;
+        border-radius: 20px;
+        color: whitesmoke;  
+        width: 150px;
+        text-align: center;
+        box-shadow: 1px 5px 5px black;
+
+    }
+   
+    .div2{
+        width: 100%;
+        background-color: white;
+        margin-top: 150px;
+    }
+    .div2 h1{
+        text-align: center;
+        
+    }
+    .div11{
+        height: 190px;
+        width: 250px;
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .div11:hover{
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 3px 2px  black;
+        margin-top: -10%;
+        transition: 3s;
+        background-color: rgb(20, 20, 20);
+    }
+    .div22:hover{
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 3px 2px  black;
+        margin-top: -10%;
+        transition: 3s;
+        background-color: rgb(10, 11, 10);
+    }
+    .div33:hover{
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 3px 2px  black;
+        margin-top: -10%;
+        transition: 3s;
+        background-color: rgb(23, 23, 22);
+    }
+    .div22{
+        height: 190px;
+        width: 250px;
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .div33{
+        height: 190px;
+        width: 250px;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .low{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .bar{
+        height: 2px;
+        width: 50px;
+        background-color: black;
+        margin-top: -10px;
+    }
+    .ss{
+        height: 2px;
+        width: 50px;
+        background-color: black;
+        margin-top: -10px;
+
+    }
+    .dd{
+        height: 2px;
+        width: 50px;
+        background-color: black;
+        margin-top: -10px;
+
+    }
+    button:hover{
+        letter-spacing: 7px;
+        transform: rotateX(20deg);
+        transition: .5s;
+    }
+    h5 span{
+        color: rgb(41, 255, 13);
+        font-size: 30px;
+    }
+</style>
+<body>
+    <div class="back">
+    <div class="main"> </div>
+    <div class="main1">
+      
+    </div></div>
+    <div class="photo">
+        <div class="pic">
+            <div class="nav">
+                
+                    <nav>
+                        <h1>AYAZ<span style="color:pink; font-size: 20px;">.</span></h1>
+                    </nav>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">WORK</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li class="bton"><a href="">About More</a></li>
+                    </ul>
+                
+            </div>
+            <div class="profile">
+                <img src="/Imges/AYAZ-removebg-preview.png" alt="">
+                <div class="detail">
+                    <h5>Hello,Im <span>AYAZ</span></h5>
+                    <h3>Expert in Web Desing&Development</h3>
+                    <p>I also studing. and want to do provide services as a developer in the market ,that is a big dream of my life and i also wish  fulfill my dreams.</p>
+                    <a href=""><button>see my skills</button></a>
+                </div>
+                
+            </div>
+            <div class="div2">
+                
+              <h1>SERVICES</h1>
+              <div class="low">
+                <div class="div11">
+                   <p> <i class="fa-regular fa-file-code fa-2xl"></i></p>
+                    <h5>WEB DESIGNER</h5>
+                    <div class="bar"></div>
+                    <p style="margin-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, obcaecati.</p>
+                    <!-- <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, praesentium.</p> -->
+                </div>
+                <div class="div22">
+                    <p><i class="fa-regular fa-database fa-2xl"></i></p>
+                    <h5>APP DEVELOPER</h5>
+                    <div class="ss"></div>
+                    <p style="margin-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, obcaecati.</p>
+                </div>
+                <div class="div33">
+                    <p><i class="fa-solid fa-wand-magic-sparkles fa-2xl"></i></p>
+                    <h5>TESTER</h5>
+                    <div class="dd"></div>
+                    <p style="margin-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, obcaecati.</p>
+                    <!-- <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, aspernatur!</p> -->
+                </div>
+              </div>
+            </div>
+
+        </div>
+        
+        
+    </div>
+    
+    
+    
+</body>
+</html>
